@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Forms</title>
+</head>
+<body>
+    <form name="loginPanel">
+        Felhasználónév: <br>
+        <input type="text" id="user"> <br>
+        Jelszó: <br>
+        <input type="password" id="pass"> <input type="checkbox" id="showPass" onclick="changePassType()"> jelszó megjelenítése <br>
+        <br>
+        <input type="submit" id="submit" onclick="loginCheck()" value="Bejelentkezés">
+        <input type="button" id="reg" value="Regisztráció" onclick="register()">
+    </form>
+    <script src="./login.js"></script>
+</body>
+</html>

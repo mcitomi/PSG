@@ -1,0 +1,7 @@
+C:\Users\admin\Documents\c#\c231106\c231106\bin\Debug\c231106.exe.config
+C:\Users\admin\Documents\c#\c231106\c231106\bin\Debug\c231106.exe
+C:\Users\admin\Documents\c#\c231106\c231106\bin\Debug\c231106.pdb
+C:\Users\admin\Documents\c#\c231106\c231106\obj\Debug\c231106.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\c#\c231106\c231106\obj\Debug\c231106.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\c#\c231106\c231106\obj\Debug\c231106.exe
+C:\Users\admin\Documents\c#\c231106\c231106\obj\Debug\c231106.pdb

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discordos valami</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Tennivalók feltöltése</h1>
+    <button type="button" style="background-color: rgb(73, 73, 226);" onclick="getAll()">Összes lekérése</button>
+    <form id="todoForm">
+        <label for="title">Feladat címe:</label>
+        <input id="title" type="text" name="title" placeholder="Írjon be egy címet" required>
+
+        <label for="desc">Leírás:</label>
+        <textarea id="desc" placeholder="Írjon egy leírást" name="desc" required></textarea>
+
+        <button type="submit">Küldés</button>
+    </form>
+
+    <div id="result">
+        
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

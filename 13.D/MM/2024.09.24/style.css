@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(156 163 175);
+}
+
+.fetch {
+    background-color: rgb(125 211 252);
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: auto;
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: baseline;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(125 211 252);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    max-width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.card .text {
+    position: relative;
+    inset: 0px;
+    opacity: 0.8;
+    border-radius: 0.5rem;
+}
+
+.card h1 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    position: relative;
+    z-index: 10;
+}
+
+.card h2 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    position: relative;
+    z-index: 10;
+}
+
+.card p {
+    margin-top: 1rem;
+    position: relative;
+    z-index: 10;
+}
+
+.red {
+    color: red;
+}

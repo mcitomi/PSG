@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BerdoHF</title>
+</head>
+<body>
+    <script>
+        // 1. Írj egy JavaScript függvényt ami átkonvertál egy Celsiusban megadott fokot Fahrenheitbe!
+        function celsiusToFahren(celsius) {
+            return (celsius * 1.8) + 32;
+        }
+
+        // 2. Írj egy JavaScript függvényt amely megnézi, hogy egy szám prímszám-e!
+        function isPrime(number) {
+            if (number <= 1) {
+                return false;
+            }
+
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i == 0) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        // 3. Írj egy JavaScript függvényt amely megkeresi egy szövegben az összes karaktert! (bejelentkezés -> bejlntkzés)
+        function noCharRepeat(text) {
+            let newCharChain = "";
+
+            for (let i = 0; i < text.length; i++) {
+                if(!newCharChain.includes(text[i])){
+                    newCharChain += text[i];
+                }
+            }
+            
+            return newCharChain;
+        }
+
+        console.log(celsiusToFahren(24));
+        console.log(isPrime(4));
+        console.log(noCharRepeat("bejelentkezés"));
+    </script>
+</body>
+</html>

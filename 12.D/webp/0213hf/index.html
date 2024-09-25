@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript objektumok</title>
+</head>
+
+<body>
+    <script>
+        function eredmenyGenerator() {
+            return Number((Math.random() * 5).toFixed(2));
+        }
+
+        function isBena(tomb) {
+            let bena = true;
+            tomb.forEach(element => {
+                if (element > 2) {
+                    bena = false;
+                }
+            });
+            return bena;
+        }
+
+        var eredmenyek = [];
+
+        var legnagyobbPontszamuVersenyzo = {
+            sorszama: null,
+            eredmenye: null
+        }
+
+        var nyertesVersenyzo = {
+            sorszama: null,
+            atlaga: null
+        }
+
+        function main() {
+            var versenyzokSzama = prompt("Adja meg a versenyzők számát! (minimum 3)");
+
+            if (versenyzokSzama <= 3 || versenyzokSzama.split('.').length > 1 || isNaN(versenyzokSzama)) {
+                alert("3-nál nagyobb egész számot adj meg!");
+                return;
+            }
+
+            for (let i = 0; i < versenyzokSzama; i++) {
+                let versenyzoEredmenye = [];
+                let versenyzoSum = 0;
+
+                for (let j = 0; j < 5; j++) {
+                    let eredmeny = eredmenyGenerator();
+                    versenyzoEredmenye.push(eredmeny);
+                    versenyzoSum += eredmeny;
+
+                    if (legnagyobbPontszamuVersenyzo.eredmenye < eredmeny) {
+                        legnagyobbPontszamuVersenyzo.eredmenye = eredmeny;
+                        legnagyobbPontszamuVersenyzo.sorszama = i + 1;
+                    }
+                }
+
+                var versenyzoAtalga = Number((versenyzoSum / 5).toFixed(2));
+
+                if (nyertesVersenyzo.atlaga < versenyzoAtalga) {
+                    nyertesVersenyzo.atlaga = versenyzoAtalga;
+                    nyertesVersenyzo.sorszama = i + 1;
+                }
+
+                console.log(`${i + 1}. versenyző átlagos pontszáma: ${versenyzoAtalga}`);
+                eredmenyek.push(versenyzoEredmenye);
+            }
+
+            console.log(`A legmagasabb pontszámot a ${legnagyobbPontszamuVersenyzo.sorszama}. sorszámú versenyző érte el ${legnagyobbPontszamuVersenyzo.eredmenye} pontszámmal.`);
+
+            for (let i = 0; i < eredmenyek.length; i++) {
+                console.log(isBena(eredmenyek[i]) ? `Az ${i + 1}. versenyző béna.` : `Az ${i + 1}. versenyző nem béna.`);
+            }
+
+            console.log(`A versenyt a ${nyertesVersenyzo.sorszama}. versenyző nyerte, ${nyertesVersenyzo.atlaga} átlaggal.`);
+        }
+
+        main(); 
+        // Berdó Tamás
+    </script>
+</body>
+
+</html>

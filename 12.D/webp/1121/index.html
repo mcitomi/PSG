@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        body {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        console.log("Üdvözöl a JS!");
+
+        // console.log("biztos hiba " + ilyennincs);
+        // console.log("teszt " + elerheto);
+        // var elerheto = "vajon?";
+        // console.log("es most? " + elerheto);
+
+        console.log(1 / 0);
+        console.log(0 / 0);
+        console.log("<img src=\"\">");
+
+        var fe = 'Odon;Abel;Anna;Zoltan';
+        var be = 'Odon;Anna;Jani;Tamas'
+
+        function fullStack(frontend, backend) {
+            var fe_devs = frontend.split(';');
+
+            var be_devs = backend.split(';');
+           
+            var array = [];
+            fe_devs.forEach(element => {
+                if(be_devs.includes(element)){
+                    array.push(element);
+                }
+            });
+            return array;
+        }
+
+        console.log(fullStack(fe, be));
+    </script>
+</body>
+</html>
