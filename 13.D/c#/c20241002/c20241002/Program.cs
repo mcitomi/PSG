@@ -8,7 +8,8 @@ namespace c20241002
 {
     public class Person
     {
-        private static int id = 0;
+        private static int _id = 0;
+        private int id;
         // readonly, osztálybol irhato, letrehozaskor 1-el no
 
         private string name;
@@ -22,31 +23,15 @@ namespace c20241002
         //olvasható és írható is kivülről, viszont minden elem hossza 20 karakternel legyen hosszabb
 
         public Person(string name, int age, List<string> hobbies) {
-            id++;
            
-            if(name.Length > 5)
-            {
-                this.name = name;
-            } else
-            {
-                throw new Exception("A név nem lehet rövidebb mint 5 karakter!");
-            }
+            Id = id;
 
-            if(age > 0 && age < 100)
-            {
-                this.age = age;
-            } else
-            {
-                throw new Exception("A kornak 0 és 100 között kell lennie");
-            }
+            Age = age;
 
-            if (string.IsNullOrEmpty(hobbies.Find(x => x.Length < 20)))
-            {
-                this.hobbies = hobbies;
-            } else
-            {
-                throw new Exception("Az egyik hobbi hossza rövidebb mint 20 karakter!");
-            }
+            Name = name;
+
+            Hobbies = hobbies;
+
         }
 
         public int Id
@@ -54,13 +39,18 @@ namespace c20241002
             get => id;
             private set
             {
-                id++;
+                _id++;
+                id = _id;
             }
         }
 
         public string Name
         {
             get => name;
+            private set
+            {
+                name = value;
+            }
         }
 
         public int Age
@@ -99,8 +89,11 @@ namespace c20241002
     {
         static void Main(string[] args)
         {
-            Person p1 = new Person("Vivike", 13, new List<string>() { "abcdefghijklmnopqrstuagagegea", "ufahufwafawfuwafhuwafwuafuuwaf" });
+            Person p1 = new Person("Vivike", 10, new List<string>() { "abcdefaeghjhgukaheguhaeukgueab", "ufahufwafawfuwafhuwafwuafuuwaf" });
+            Person p2 = new Person("Balazs", 14, new List<string>() { "abcdefaeghjhgukaheguhaeukgueab", "ufahufwafawfuwafhuwafwuafuuwaf" });
+
             Console.WriteLine($"{p1.Name} {p1.Age} éves, azonositoja #{p1.Id}");
+            Console.WriteLine($"{p2.Name} {p2.Age} éves, azonositoja #{p2.Id}");
 
             Console.ReadLine();
         }
