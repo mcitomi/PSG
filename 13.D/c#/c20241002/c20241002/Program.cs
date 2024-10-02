@@ -40,7 +40,7 @@ namespace c20241002
                 throw new Exception("A kornak 0 és 100 között kell lennie");
             }
 
-            if(!string.IsNullOrEmpty(hobbies.Find(x => x.Length < 20)))
+            if (string.IsNullOrEmpty(hobbies.Find(x => x.Length < 20)))
             {
                 this.hobbies = hobbies;
             } else
@@ -84,7 +84,7 @@ namespace c20241002
             get => hobbies;
             set
             {
-                if (!string.IsNullOrEmpty(value.Find(x => x.Length < 20)))
+                if (string.IsNullOrEmpty(value.Find(x => x.Length < 20)))
                 {
                     hobbies = value;
                 }
@@ -99,7 +99,10 @@ namespace c20241002
     {
         static void Main(string[] args)
         {
+            Person p1 = new Person("Vivike", 13, new List<string>() { "abcdefghijklmnopqrstuagagegea", "ufahufwafawfuwafhuwafwuafuuwaf" });
+            Console.WriteLine($"{p1.Name} {p1.Age} éves, azonositoja #{p1.Id}");
 
+            Console.ReadLine();
         }
     }
 }

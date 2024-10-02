@@ -1,0 +1,7 @@
+C:\Users\admin\Documents\PSG\13.D\c#\c20241002\c20241002\bin\Debug\c20241002.exe.config
+C:\Users\admin\Documents\PSG\13.D\c#\c20241002\c20241002\bin\Debug\c20241002.exe
+C:\Users\admin\Documents\PSG\13.D\c#\c20241002\c20241002\bin\Debug\c20241002.pdb
+C:\Users\admin\Documents\PSG\13.D\c#\c20241002\c20241002\obj\Debug\c20241002.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\PSG\13.D\c#\c20241002\c20241002\obj\Debug\c20241002.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\PSG\13.D\c#\c20241002\c20241002\obj\Debug\c20241002.exe
+C:\Users\admin\Documents\PSG\13.D\c#\c20241002\c20241002\obj\Debug\c20241002.pdb
