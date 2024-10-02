@@ -71,7 +71,7 @@ namespace c20241002
 
         public List<string> Hobbies
         {
-            get => hobbies;
+            get => hobbies; //ezt így nem szabad egybe visszaadni!!!! csak az elemeit
             set
             {
                 if (string.IsNullOrEmpty(value.Find(x => x.Length < 20)))
@@ -85,15 +85,92 @@ namespace c20241002
             }
         }
     }
+
+    public class Family // konténerosztály
+    {
+        private List<Person> persons = new List<Person>();
+
+        public Person this[int id]  //indexer
+        {
+            get
+            {
+                if(0 <= id && id < persons.Count)
+                {
+                    return persons[id];
+                } else
+                {
+                    throw new Exception("Nincs ilyen id");
+                }
+            }
+        }
+
+        public Person this[string name]
+        {
+            get
+            {
+                if (!string.IsNullOrEmpty(name))
+                {
+                    foreach(Person obj in persons)
+                    {
+                        if(obj.Name.ToLower() == name.ToLower().Trim())
+                        {
+                            return obj;
+                        }
+                    }
+                    throw new Exception("Nincs ilyen ember ilyen nevvel");
+                } else
+                {
+                    throw new Exception("Nev nem lehet üres");
+                }
+            }
+        }
+
+        public Person getMember(int id)
+        {
+            foreach (Person obj in persons)
+            {
+                if(obj.Id == id)
+                {
+                    return obj;
+                }
+            }
+
+            throw new Exception("Nincs ilyen id");
+        }
+
+        public Person getMember(string name)
+        {
+            foreach (Person obj in persons)
+            {
+                if (obj.Name == name)
+                {
+                    return obj;
+                }
+            }
+
+            throw new Exception("Nincs ilyen nev");
+        }
+    }
+
+    // az indexer és az eljárás is ugyan azt csinálja, viszont az indexer optimalizaltabb
+    // direkt erre kitalalt funkcio
+
     internal class Program
     {
         static void Main(string[] args)
         {
-            Person p1 = new Person("Vivike", 10, new List<string>() { "abcdefaeghjhgukaheguhaeukgueab", "ufahufwafawfuwafhuwafwuafuuwaf" });
-            Person p2 = new Person("Balazs", 14, new List<string>() { "abcdefaeghjhgukaheguhaeukgueab", "ufahufwafawfuwafhuwafwuafuuwaf" });
+            // Person tesztelések:
 
-            Console.WriteLine($"{p1.Name} {p1.Age} éves, azonositoja #{p1.Id}");
-            Console.WriteLine($"{p2.Name} {p2.Age} éves, azonositoja #{p2.Id}");
+            //Person p1 = new Person("Vivike", 10, new List<string>() { "abcdefaeghjhgukaheguhaeukgueab", "ufahufwafawfuwafhuwafwuafuuwaf" });
+            //Person p2 = new Person("Balazs", 14, new List<string>() { "abcdefaeghjhgukaheguhaeukgueab", "ufahufwafawfuwafhuwafwuafuuwaf" });
+
+            //Console.WriteLine($"{p1.Name} {p1.Age} éves, azonositoja #{p1.Id}");
+            //Console.WriteLine($"{p2.Name} {p2.Age} éves, azonositoja #{p2.Id}");
+
+            Family f = new Family();
+
+            Person p3 = f.getMember(1); // eljárásos megoldás
+            Person p4 = f[2];   // indexer
 
             Console.ReadLine();
         }
