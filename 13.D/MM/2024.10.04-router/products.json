@@ -1,12 +1,15 @@
 [
     {
         "név": "Balogh Péter",
-        "autó": "Ford Mondeo",
-        "állapot": "Jó",
-        "rendszám": "XXX-100"
+        "autó": "2007 metál barna Ford Mondeo",
+        "állapot": "Szép, kicsit karcos (parkolni még meg kell tanulnia)",
+        "rendszám": "MAI-128"
     },
     {
-        "név": "meow"
+        "név": "meow",
+        "autó": "Cat-mobil",
+        "állapot": "Kiváló",
+        "rendszám": "CAT-333"
     },
     {
         "név": "meow3"
