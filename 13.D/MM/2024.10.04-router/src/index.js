@@ -20,17 +20,59 @@ app.post("/products", (req, res) => {
     const body = req.body;
 
     if(!body || typeof body != "object") {
-        return res.send("Hiányzik a body!");
+        return res.json(
+            {
+                "error" : "Bad request", 
+                "message" : "Az üzenetnek tartalmazni kell bodyt megfelelő formátumban."
+            }
+        ).status(400);
     }
 
-    if(!body.név || typeof body.név != "string" || body.név.length < 3) {
-        return res.send("Hibás body! Tartalmani kell név tulajdonságot ami minumum 3 karatker hossz");
+    if(!body.név || typeof body.név != "string") {
+        return res.json(
+            {
+                "error" : "Bad request", 
+                "message" : "A bodynak tartalmazni kell 'név' tulajdonságot."
+            }
+        ).status(400);
+    }
+
+    if(!body.autó || typeof body.autó != "string") {
+        return res.json(
+            {
+                "error" : "Bad request", 
+                "message" : "A bodynak tartalmazni kell 'autó' tulajdonságot."
+            }
+        ).status(400);
+    }
+
+    if(!body.állapot || typeof body.állapot != "string") {
+        return res.json(
+            {
+                "error" : "Bad request", 
+                "message" : "A bodynak tartalmazni kell 'állapot' tulajdonságot."
+            }
+        ).status(400);
+    }
+
+    if(!body.ár || typeof body.ár != "number") {
+        return res.json(
+            {
+                "error" : "Bad request", 
+                "message" : "A bodynak tartalmazni kell 'ár' tulajdonságot."
+            }
+        ).status(400);
     }
 
     const storageArray = JSON.parse(fs.readFileSync("./products.json", {encoding: "utf-8"}));
 
     if(storageArray.find(x => x.név == body.név)) {
-        return res.send("Ilyen termék már létezik!");
+        return res.json(
+            {
+                "error" : "Bad request", 
+                "message" : "Ilyen termék már létezik!"
+            }
+        ).status(400);
     }
     
     storageArray.push(body);
@@ -45,11 +87,21 @@ app.delete("/products", (req, res) => {
     const body = req.body;
 
     if(!body || typeof body != "object") {
-        return res.send("Hiányzik a body!");
+        return res.json(
+            {
+                "error" : "Bad request", 
+                "message" : "Az üzenetnek tartalmazni kell bodyt megfelelő formátumban."
+            }
+        ).status(400);
     }
 
-    if(!body.név || typeof body.név != "string" || body.név.length < 3) {
-        return res.send("Hibás body! Tartalmani kell név tulajdonságot ami minumum 3 karatker hossz");
+    if(!body.név || typeof body.név != "string") {
+        return res.json(
+            {
+                "error" : "Bad request", 
+                "message" : "A bodynak tartalmazni kell 'név' tulajdonságot."
+            }
+        ).status(400);
     }
 
     const storageArray = JSON.parse(fs.readFileSync("./products.json", {encoding: "utf-8"}));
