@@ -27,7 +27,11 @@ app.post("/products", (req, res) => {
         return res.send("Hibás body! Tartalmani kell név tulajdonságot ami minumum 3 karatker hossz");
     }
 
-    let storageArray = JSON.parse(fs.readFileSync("./products.json", {encoding: "utf-8"}));
+    const storageArray = JSON.parse(fs.readFileSync("./products.json", {encoding: "utf-8"}));
+
+    if(storageArray.find(x => x.név == body.név)) {
+        return res.send("Ilyen termék már létezik!");
+    }
     
     storageArray.push(body);
 
@@ -35,6 +39,26 @@ app.post("/products", (req, res) => {
     
     res.send("Upload finished");
     
+});
+
+app.delete("/products", (req, res) => {
+    const body = req.body;
+
+    if(!body || typeof body != "object") {
+        return res.send("Hiányzik a body!");
+    }
+
+    if(!body.név || typeof body.név != "string" || body.név.length < 3) {
+        return res.send("Hibás body! Tartalmani kell név tulajdonságot ami minumum 3 karatker hossz");
+    }
+
+    const storageArray = JSON.parse(fs.readFileSync("./products.json", {encoding: "utf-8"}));
+
+    const object = storageArray.filter(x => x.név != body.név);
+    
+    fs.writeFileSync("./products.json", JSON.stringify(object, null, 4));
+    
+    res.send("Removed");
 });
 
 app.listen(port, () => {
