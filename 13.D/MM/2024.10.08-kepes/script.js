@@ -26,10 +26,19 @@ async function getPhotos() {
 
         const body = await response.json();
 
+        for (let i = 0; i < 10; i++) {
+            const photo = body[i];
 
+            target.innerHTML += `
+                <h1>${photo.title}</h1>
+                <img src="${photo.url}"></img>"
+            `;
+        }
 
     } catch (error) {   // hiba "elkapása"
-        console.error("valami hiba tortent");
+        console.log(error);
+        
+        target.innerHTML = "Valami hiba történt"
     }
 
 }
