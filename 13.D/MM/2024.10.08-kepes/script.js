@@ -1,4 +1,4 @@
-async function getProducts() {
+async function getProducts() {  // sajat api teszt - cors
     try {
         const response = await fetch("http://localhost:3000/products"); // cors test
 
@@ -40,5 +40,32 @@ async function getPhotos() {
         
         target.innerHTML = "Valami hiba történt"
     }
+}
 
+async function getComments() {
+    try {
+        const url = new URL("https://jsonplaceholder.typicode.com/comments");   // paraméter biztonságos hozzáadása
+        url.searchParams.append("postId", "10");
+
+        const response = await fetch(url);
+
+        if(!response.ok) {
+            throw new Error("A szerver hibát adott");
+        }
+
+        const body = await response.json();
+
+        body.forEach(comment => {
+            target.innerHTML += `
+            Poszt: ${comment.postId}
+            <h1>${comment.name}</h1>
+            <p>${comment.body}</p>
+            `;
+        });
+
+    } catch (error) {   // hiba "elkapása"
+        console.log(error);
+        
+        target.innerHTML = "Valami hiba történt"
+    }
 }
