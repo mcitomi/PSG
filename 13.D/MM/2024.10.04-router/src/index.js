@@ -1,9 +1,11 @@
 const express = require("express");
 const { port } = require("../config.json");
 const fs = require("fs");
+const cors = require("cors");
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.get("/health_check", (req, res) => {
     res.json({
@@ -14,6 +16,12 @@ app.get("/health_check", (req, res) => {
 app.get("/products", (req, res) => {
     res.json(JSON.parse(fs.readFileSync("./products.json", {encoding: "utf-8"})));
 });
+
+// hibalehetőségek
+// - nincs body
+// - nem valid json forma
+// - mezők nevei hibásak vagy nincsenek
+// - hibás tipusú mező
 
 app.post("/products", (req, res) => {
 
