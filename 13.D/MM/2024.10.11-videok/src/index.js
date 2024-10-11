@@ -21,15 +21,44 @@ const videos = [
     }
 ];
 
+// Lekérdezési paraméterek. pl: /videos?title=tutorial
+
 app.get("/videos", (req, res) => {
-    res.status(200).json(videos);
+    const title = req.query.title;
+
+    if(!title) {
+        return res.status(200).json(videos);
+    }
+   
+    const results = [];
+    videos.forEach(video => {
+        if(video.title.includes(title)) {
+            results.push(video);
+        }
+    });
+    
+    if(results.length) {
+        res.status(200).json(results);
+    } else {
+        errorHandler(res, "404", "Video not found", 404);
+    }
 });
+
+app.get("/videos/:id", (req, res) => {
+    const result = videos.find(video => video.id == req.params.id);
+
+    if(result) {
+        res.status(200).json(result);
+    } else {
+        errorHandler(res, "404", "Video not found", 404);
+    }
+})
 
 app.post("/videos", async (req, res) => {
     try {
         const body = await req.body;
 
-        if(!body || typeof body != "object" || !body.length) {
+        if(!body || typeof body != "object" || Object.keys(body).length == 0) { // üres body vizsglat
             return errorHandler(res, "Bad request", "Invalid body", 400);
         }
 
