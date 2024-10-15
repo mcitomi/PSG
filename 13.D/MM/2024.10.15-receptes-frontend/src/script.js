@@ -89,3 +89,7 @@ async function uploadValues() {
         
     }
 }
+
+document.addEventListener("submit", (e) => {
+    e.preventDefault();
+});
