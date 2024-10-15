@@ -1,0 +1,45 @@
+#videos {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap;
+    height: 250px;
+}
+
+.card {
+    min-width: 20rem; 
+    min-height: 15rem;
+    margin-right: 10px;
+    text-wrap: pretty;
+}
+
+/* Törli az alsó scrollbar design-t (opcionális) */
+#videos::-webkit-scrollbar {
+    height: 8px;
+}
+
+#videos::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+#videos::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.form-control {
+    width: 500px; /* Keresősáv szélességének növelése */
+}
+
+.navbar-brand {
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+}
+
+#upload {
+    padding: 10px;
+    border: #888 solid 1px;
+    border-radius: 10px;
+}
