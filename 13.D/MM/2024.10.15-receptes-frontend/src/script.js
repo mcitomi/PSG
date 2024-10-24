@@ -19,7 +19,7 @@ async function getVideos() {
                     <h5 class="card-title">${video.title}</h5>
                     <p class="card-text">${video.desc}</p>
                     <small><i class="fa-regular fa-clock"></i>  ${(video.seconds / 60).toFixed(1)}perc</small><br>
-                    <a href="${apiLink}/videos/${video.id}" target="_blank" class="btn btn-primary">Nyers adatok</a>
+                    <a href="${apiLink}/recipes/${video.id}" target="_blank" class="btn btn-primary">Nyers adatok</a>
                 </div>
             </div>
             `;
