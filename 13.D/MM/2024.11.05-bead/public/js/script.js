@@ -1,7 +1,9 @@
+// gyors dom query rövidítések
 function $(elementId) {
     return document.getElementById(elementId);
 }
 
+// mindig az első ilyen nevű class-t / dom elemet adja vissza
 function $tag(tagName) {
     return document.getElementsByTagName(tagName)[0];
 }
@@ -31,6 +33,8 @@ async function getTeachers() {
 
         for (const teacher of body) {
             lastTeacherId = parseInt(teacher.id);
+
+            // az input/span poziciojat chatgpt írta
             $tag("tbody").innerHTML += `
                 <tr>
                     <th scope="row">${teacher.id}</th>
@@ -89,6 +93,7 @@ async function getTeachers() {
 }
 
 function modifyTeacher(teacherId) {
+    // itt vált át a szöveg input-ra
     $(`dataInput${teacherId}`).style.visibility = "visible";
     $(`dataHolder${teacherId}`).style.visibility = "hidden";
 
@@ -103,6 +108,7 @@ function modifyTeacher(teacherId) {
     }
 }
 
+// "szerkesztő mód"ban a gombok ki/be kapcsolása
 function disableAllOtherButton(id) {
     for (let i = 0; i <= lastTeacherId + 1; i++) {
 
@@ -154,7 +160,7 @@ async function updateValues(id) {
 
     console.log(updatedValues);
 
-    if (id > lastTeacherId) {
+    if (id > lastTeacherId) { 
         pushNewTeacher(updatedValues);
         return;
     }
@@ -163,6 +169,8 @@ async function updateValues(id) {
     $(`dataHolder${id}age`).textContent = $(`dataInput${id}age`).value.trim();
 
     if (Object.keys(updatedValues).length > 1) {
+        // ez fut le, ha változott valami érték
+
         const response = await sendValues(updatedValues);
 
         if (response.success) {
@@ -175,6 +183,7 @@ async function updateValues(id) {
             alert(response.message);
         }
     } else {
+        // ha nem történt módosítás visszaállítódik minden
         $(`dataInput${id}`).style.visibility = "hidden";
         $(`dataHolder${id}`).style.visibility = "visible";
     
@@ -189,7 +198,7 @@ async function sendValues(values) {
     try {
         let methodType = "PATCH";
 
-        if (Object.keys(values).length !== 2) {
+        if (Object.keys(values).length !== 2) { // ha több értéket módosítunk (tehát az összeset) akkor put lesz
             methodType = "PUT";
         }
 
@@ -205,7 +214,7 @@ async function sendValues(values) {
 
         const body = await response.json();
 
-        if (response.status > 299) {
+        if (response.status > 299) {    // ha hibakódot ad vissza (299 felett hibakódok vannak tbh)
             return {
                 "success": false,
                 "message": body.message
@@ -225,7 +234,7 @@ async function sendValues(values) {
 }
 
 async function deleteTeacher(id) {
-    if (confirm(`Biztos hogy törlöd #${id} azonosítójú tanár adatait?`)) {
+    if (confirm(`Biztos hogy törlöd #${id} azonosítójú tanár adatait?`)) { // felugró üzenet 
         try {
             const response = await fetch("/api/teachers", {
                 method: "DELETE",
@@ -246,7 +255,7 @@ async function deleteTeacher(id) {
 
                 getTeachers();
             } else {
-                alert(body.message ? body.message : "Nem sikerült törölni az adatokat!");
+                alert(body?.message ? body?.message : "Nem sikerült törölni az adatokat!");
             }
         } catch (error) {
             console.log(error);
@@ -270,7 +279,7 @@ async function pushNewTeacher(values) {
         const body = await response.json();
 
         if (response.status > 299) {
-            alert(body.message ? body.message : "Valami hiba történt!");
+            alert(body?.message ? body?.message : "Valami hiba történt!");
             return;
         } else {
             editMode = false;
