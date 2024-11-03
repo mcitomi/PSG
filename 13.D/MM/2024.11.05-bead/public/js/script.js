@@ -190,6 +190,8 @@ async function updateValues(id) {
         $(`dataInput${id}age`).style.visibility = "hidden";
         $(`dataHolder${id}age`).style.visibility = "visible";
 
+        editMode = false;
+        
         enableAllOtherButton(id);
     }
 }
