@@ -1,10 +1,10 @@
 import express, { type Application, json } from "express";
-import { createPool } from "mysql2/promise";
+import { createConnection } from "mysql2/promise";
 import { join } from "node:path";
 import { www, mysql } from "../config.json"; // config adatok 
 
 async function main() {
-    const sqlPool = createPool({  // adatbázisnak az órán is hasznalt db-t használtam
+    const sqlPool = await createConnection({  // adatbázisnak az órán is hasznalt db-t használtam
         host: mysql.host,   // a configból beimportált adatok használata
         user: mysql.user,
         password: mysql.password,

@@ -16,7 +16,8 @@ var editMode = false;
 
 async function getTeachers() {
     try {
-        const response = await fetch("/api/teachers", {
+        const response = await fetch("/api/teachers", { // az ezen a domain-en lévő /api/teachers endpointra küld kérést
+            // ezért kell hogy localhost-ról nyissuk meg az oldalt
             // https://stackoverflow.com/questions/46946380/fetch-api-request-timeout
             signal: AbortSignal.timeout(3000)   // A fetch kérés csak 3másodpercig vár a szerverre
         });
@@ -173,6 +174,14 @@ async function updateValues(id) {
         } else {
             alert(response.message);
         }
+    } else {
+        $(`dataInput${id}`).style.visibility = "hidden";
+        $(`dataHolder${id}`).style.visibility = "visible";
+    
+        $(`dataInput${id}age`).style.visibility = "hidden";
+        $(`dataHolder${id}age`).style.visibility = "visible";
+
+        enableAllOtherButton(id);
     }
 }
 
