@@ -191,7 +191,7 @@ async function updateValues(id) {
         $(`dataHolder${id}age`).style.visibility = "visible";
 
         editMode = false;
-        
+
         enableAllOtherButton(id);
     }
 }
@@ -200,7 +200,8 @@ async function sendValues(values) {
     try {
         let methodType = "PATCH";
 
-        if (Object.keys(values).length !== 2) { // ha több értéket módosítunk (tehát az összeset) akkor put lesz
+        // ha több értéket módosítunk (tehát az összeset) akkor put lesz
+        if (Object.keys(values).length !== 2) { 
             methodType = "PUT";
         }
 

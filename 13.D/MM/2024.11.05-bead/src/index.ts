@@ -1,10 +1,10 @@
 import express, { type Application, json } from "express";
-import { createConnection } from "mysql2/promise";
+import { createPool } from "mysql2/promise";
 import { join } from "node:path";
 import { www, mysql } from "../config.json"; // config adatok 
 
 async function main() {
-    const sqlPool = await createConnection({  // adatbázisnak az órán is hasznalt db-t használtam
+    const sqlPool = createPool({  // adatbázisnak az órán is hasznalt db-t használtam
         host: mysql.host,   // a configból beimportált adatok használata
         user: mysql.user,
         password: mysql.password,
@@ -63,6 +63,8 @@ async function main() {
                 sqlQuery += " age = ? ";
                 sqlValue = body.age;
             }
+
+            // összeállítom az sql lekérdezést attól függően hogy melyik adat hiányzik
 
             await sqlPool.execute(`${sqlQuery}WHERE id = ?;`, [sqlValue, body.id]);
 
