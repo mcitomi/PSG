@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "elsooo"
 include ':app'
+include ':app'
