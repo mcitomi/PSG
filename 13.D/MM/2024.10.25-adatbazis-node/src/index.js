@@ -131,7 +131,7 @@ app.post("/courses", async (req, res) => {
     try {
         const body = req.body;
 
-        if (!body || typeof (body) !== "object" || Object.keys(body).length < 1) {
+        if (!body || typeof (body) !== "object" || Object.keys(body).length !== 4) {
             throw new Error("Server says: Invalid body!");
         }
 
@@ -143,7 +143,7 @@ app.post("/courses", async (req, res) => {
             throw new Error("Server says: Invalid name field");
         }
 
-        if (!body.length || typeof (body.length) !== "number") {
+        if (!body.length || body.length < 0 || typeof (body.length) !== "number") {
             throw new Error("Server says: Invalid length field");
         }
 
@@ -151,30 +151,30 @@ app.post("/courses", async (req, res) => {
             throw new Error("Server says: Invalid teacher_id field");
         }
 
-        const [result, ] = await pool.execute(`
+        const [result,] = await pool.execute(`
             SELECT name FROM teachers WHERE id = ?;
             `,
             [body.teacher_id]
         );
-        
-        if(Object.keys(result).length == 0) {
+
+        if (Object.keys(result).length == 0) {
             throw new Error("Server says: This teacher id do not exists!");
         }
 
         await pool.execute(`
             INSERT INTO courses (id, name, description, length, teacher_id) 
-            VALUES (?, ?, ?, ?, ?);`, 
+            VALUES (?, ?, ?, ?, ?);`,
             ['', body.name, body.description, body.length, body.teacher_id]
         );
 
         res.status(201).json({
-            "message" : "Course added!"
+            "message": "Course added!"
         });
-        
+
     } catch (error) {
         if (error.message.includes("Server says")) {
             res.status(400).json({
-                "message": error.message
+                "message": error.message.slice(12)
             });
             return;
         }
@@ -216,7 +216,7 @@ app.post("/teachers", async (req, res) => {
     } catch (error) {
         if (error.message.includes("Server says")) {
             res.status(400).json({
-                "message": error.message
+                "message": error.message.slice(12)
             });
             return;
         }
@@ -229,6 +229,49 @@ app.post("/teachers", async (req, res) => {
         });
     }
 });
+
+app.delete("/courses/:id", async (req, res) => {    // ha nincs megadva az id paraméter akkor le sem fut ez az ág
+    try {
+        const id = parseInt(req.params.id); // csak egész számokat fogad el, van külön float törteknek
+
+        if (isNaN(id)) {
+            throw new Error("Server: Invalid parameter 'id' must be a number");
+        }
+
+        if(id < 1) {
+            throw new Error("Server: Invalid parameter 'id' must be greater than 0");
+        }
+
+        const [result, ] = await pool.query(`
+            DELETE FROM courses WHERE id = ?`, [id]
+        );
+
+        if(result.affectedRows == 0) {  // Megvizsgáljuk hogy van e változtatott sor, ha van sikeres a törlés
+            res.status(404).send();
+            return;
+        }
+
+        res.json({
+            "id" : id
+        });
+
+        // res.status(204).send()   - 204: no content és a send-el üres törzset lehet küldeni csak status koddal
+
+    } catch (error) {
+        if (error.message.includes("Server:")) {
+            res.status(400).json({
+                "message": error.message.slice(7)   // levágom a "Server:" stringet a hibaüzenet elejéről
+            });
+            return;
+        }
+
+        res.status(500).json({
+            "message": "Something went wrong! Couldn't delete course!"
+        });
+    }
+});
+
+
 
 app.listen(PORT, () => {
     console.info(`Server started on port ${PORT}!`);
