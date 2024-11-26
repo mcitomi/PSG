@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Elsooo"
         tools:targetApi="31">
         <activity
+            android:name=".registerActivity"
+            android:exported="false" />
+        <activity
             android:name=".loginActivity"
             android:exported="false" />
         <activity

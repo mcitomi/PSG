@@ -1,0 +1,10 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241120-bemutatoora\c20241120-bemutatoora\bin\Debug\c20241120-bemutatoora.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241120-bemutatoora\c20241120-bemutatoora\bin\Debug\c20241120-bemutatoora.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241120-bemutatoora\c20241120-bemutatoora\bin\Debug\c20241120-bemutatoora.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241120-bemutatoora\c20241120-bemutatoora\obj\Debug\c20241120-bemutatoora.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241120-bemutatoora\c20241120-bemutatoora\obj\Debug\c20241120_bemutatoora.Form1.resources
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241120-bemutatoora\c20241120-bemutatoora\obj\Debug\c20241120_bemutatoora.Properties.Resources.resources
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241120-bemutatoora\c20241120-bemutatoora\obj\Debug\c20241120-bemutatoora.csproj.GenerateResource.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241120-bemutatoora\c20241120-bemutatoora\obj\Debug\c20241120-bemutatoora.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241120-bemutatoora\c20241120-bemutatoora\obj\Debug\c20241120-bemutatoora.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241120-bemutatoora\c20241120-bemutatoora\obj\Debug\c20241120-bemutatoora.pdb
