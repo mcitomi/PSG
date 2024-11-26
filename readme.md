@@ -34,3 +34,16 @@ Lehet interaktívitás, nem kell egy gombot 10x megíni, elég 1x és csak be ke
 
 A komponens neveket negy betűvel kezdjük pl StrictMode, ez igaz a fileokra is pl App.jsx (de ez csak formaiság)
 
+A komponenseket function-ként kell létrehozni, amiknek a visszatérési értéke html elem(ek). Csak egy elemet adhatunk vissza, de együres <></> elem közé írhatunk többet is. (olyan mint egy div, de ez nem jelenik meg a dom-ban így egyből a szülő elembe rakjuk az elemeket).
+
+Érték átadás komponenseknek
+```
+function Komponens({id, name}){
+return <>
+  <h1>{name}</h1>
+</>
+}
+
+<Komponens id=1 name="Máté" />
+```
+
