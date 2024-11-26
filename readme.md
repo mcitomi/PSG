@@ -13,6 +13,9 @@ https://www.youtube.com/watch?v=xiWtqVtd1Oo
 **react:** maga az a csomag ami a reactot adja </br>
 **react-dom:** HTML-t módosítunk vele </br>
 **react-scripts:** react futtatása
+Typeok hozzá:
+npm i --save-dev @types/react
+npm i --save-dev @types/react-dom
 
 - `package.json` fájlhoz adjunk hozzá egy új scriptet: `"start" : "react-scripts start"`
 - Indítás: `npm start`
