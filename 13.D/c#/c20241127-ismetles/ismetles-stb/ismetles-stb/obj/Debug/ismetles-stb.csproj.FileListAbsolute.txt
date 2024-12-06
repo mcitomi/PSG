@@ -1,0 +1,7 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241127-ismetles\ismetles-stb\ismetles-stb\bin\Debug\ismetles-stb.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241127-ismetles\ismetles-stb\ismetles-stb\bin\Debug\ismetles-stb.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241127-ismetles\ismetles-stb\ismetles-stb\bin\Debug\ismetles-stb.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241127-ismetles\ismetles-stb\ismetles-stb\obj\Debug\ismetles-stb.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241127-ismetles\ismetles-stb\ismetles-stb\obj\Debug\ismetles-stb.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241127-ismetles\ismetles-stb\ismetles-stb\obj\Debug\ismetles-stb.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\c20241127-ismetles\ismetles-stb\ismetles-stb\obj\Debug\ismetles-stb.pdb
