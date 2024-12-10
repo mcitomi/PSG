@@ -101,13 +101,13 @@ app.patch("/like/:id", async (req, res) => {
     try {
         const postId = parseInt(req.params.id);
 
-        if(isNaN(postId)) {
+        if(isNaN(postId)) { // ha az id nem egy szám, akkor hibát dobunk
             throw new Error("msg:Helytelen id paraméter");
         }
 
         const [sqlQuery] = await pool.query(`
             UPDATE posts SET likes = likes + 1 WHERE id = ?
-        `, [postId]); 
+        `, [postId]); // így lehet valaminek növelni az értékét sql utasításban
 
         if(sqlQuery.affectedRows !== 1) {
             throw new Error("msg:Sikertelen kedvelés");
