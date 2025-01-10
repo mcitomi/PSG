@@ -1,0 +1,10 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.10-snooker-leitli\Snooker_0110\Snooker_0110\bin\Debug\Snooker_0110.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.10-snooker-leitli\Snooker_0110\Snooker_0110\bin\Debug\Snooker_0110.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.10-snooker-leitli\Snooker_0110\Snooker_0110\bin\Debug\Snooker_0110.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.10-snooker-leitli\Snooker_0110\Snooker_0110\obj\Debug\Snooker_0110.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.10-snooker-leitli\Snooker_0110\Snooker_0110\obj\Debug\Snooker_0110.Form1.resources
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.10-snooker-leitli\Snooker_0110\Snooker_0110\obj\Debug\Snooker_0110.Properties.Resources.resources
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.10-snooker-leitli\Snooker_0110\Snooker_0110\obj\Debug\Snooker_0110.csproj.GenerateResource.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.10-snooker-leitli\Snooker_0110\Snooker_0110\obj\Debug\Snooker_0110.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.10-snooker-leitli\Snooker_0110\Snooker_0110\obj\Debug\Snooker_0110.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.10-snooker-leitli\Snooker_0110\Snooker_0110\obj\Debug\Snooker_0110.pdb

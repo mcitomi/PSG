@@ -1,0 +1,10 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.07-fifa-leitli\fifa0107\fifa0107\bin\Debug\fifa0107.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.07-fifa-leitli\fifa0107\fifa0107\bin\Debug\fifa0107.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.07-fifa-leitli\fifa0107\fifa0107\bin\Debug\fifa0107.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.07-fifa-leitli\fifa0107\fifa0107\obj\Debug\fifa0107.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.07-fifa-leitli\fifa0107\fifa0107\obj\Debug\fifa0107.Form1.resources
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.07-fifa-leitli\fifa0107\fifa0107\obj\Debug\fifa0107.Properties.Resources.resources
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.07-fifa-leitli\fifa0107\fifa0107\obj\Debug\fifa0107.csproj.GenerateResource.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.07-fifa-leitli\fifa0107\fifa0107\obj\Debug\fifa0107.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.07-fifa-leitli\fifa0107\fifa0107\obj\Debug\fifa0107.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.07-fifa-leitli\fifa0107\fifa0107\obj\Debug\fifa0107.pdb
