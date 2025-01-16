@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Diagnostics;
 
 namespace Snooker_0110
 {
@@ -90,13 +91,15 @@ namespace Snooker_0110
                 if(versenyzo.orszag == "Norvégia")
                 {
                     isFound = true;
+                    break;
                 }
             }
 
             if (isFound)
             {
                 MessageBox.Show("A versenyzők között van norvég versenyző");
-            } else
+            } 
+            else
             {
                 MessageBox.Show("A versenyzők között nincs norvég versenyző");
             }
@@ -111,7 +114,8 @@ namespace Snooker_0110
                 if (stats.ContainsKey(versenyzo.orszag))
                 {
                     stats[versenyzo.orszag]++;
-                } else
+                } 
+                else
                 {
                     stats.Add(versenyzo.orszag, 1);
                 }
