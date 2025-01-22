@@ -1,0 +1,10 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-grafikus-dani\20250122-grafikus-dani\bin\Debug\20250122-grafikus-dani.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-grafikus-dani\20250122-grafikus-dani\bin\Debug\20250122-grafikus-dani.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-grafikus-dani\20250122-grafikus-dani\bin\Debug\20250122-grafikus-dani.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-grafikus-dani\20250122-grafikus-dani\obj\Debug\20250122-grafikus-dani.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-grafikus-dani\20250122-grafikus-dani\obj\Debug\_20250122_grafikus_dani.Form1.resources
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-grafikus-dani\20250122-grafikus-dani\obj\Debug\_20250122_grafikus_dani.Properties.Resources.resources
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-grafikus-dani\20250122-grafikus-dani\obj\Debug\20250122-grafikus-dani.csproj.GenerateResource.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-grafikus-dani\20250122-grafikus-dani\obj\Debug\20250122-grafikus-dani.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-grafikus-dani\20250122-grafikus-dani\obj\Debug\20250122-grafikus-dani.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-grafikus-dani\20250122-grafikus-dani\obj\Debug\20250122-grafikus-dani.pdb
