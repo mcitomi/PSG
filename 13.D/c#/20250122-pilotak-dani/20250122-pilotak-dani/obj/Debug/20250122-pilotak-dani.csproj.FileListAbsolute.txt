@@ -1,0 +1,7 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-pilotak-dani\20250122-pilotak-dani\bin\Debug\20250122-pilotak-dani.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-pilotak-dani\20250122-pilotak-dani\bin\Debug\20250122-pilotak-dani.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-pilotak-dani\20250122-pilotak-dani\bin\Debug\20250122-pilotak-dani.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-pilotak-dani\20250122-pilotak-dani\obj\Debug\20250122-pilotak-dani.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-pilotak-dani\20250122-pilotak-dani\obj\Debug\20250122-pilotak-dani.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-pilotak-dani\20250122-pilotak-dani\obj\Debug\20250122-pilotak-dani.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250122-pilotak-dani\20250122-pilotak-dani\obj\Debug\20250122-pilotak-dani.pdb
