@@ -1,0 +1,7 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.29-doga\berdotamas\berdotamas\bin\Debug\berdotamas.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.29-doga\berdotamas\berdotamas\bin\Debug\berdotamas.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.29-doga\berdotamas\berdotamas\bin\Debug\berdotamas.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.29-doga\berdotamas\berdotamas\obj\Debug\berdotamas.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.29-doga\berdotamas\berdotamas\obj\Debug\berdotamas.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.29-doga\berdotamas\berdotamas\obj\Debug\berdotamas.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\2025.01.29-doga\berdotamas\berdotamas\obj\Debug\berdotamas.pdb

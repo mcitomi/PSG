@@ -1,0 +1,6 @@
+Gál Mirkó;24;4;False
+Szőke Marcell;20;13;False
+Mészáros Bendegúz;20;17;False
+Sipos Kende;24;19;False
+Kozma Laurent;25;20;False
+Fekete Laurent;22;23;False
