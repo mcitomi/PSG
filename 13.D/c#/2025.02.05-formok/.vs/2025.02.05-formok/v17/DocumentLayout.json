@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\2025.02.05-formok\\2025.02.05-formok\\adatbazis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|solutionrelative:2025.02.05-formok\\adatbazis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\2025.02.05-formok\\2025.02.05-formok\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|solutionrelative:2025.02.05-formok\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\2025.02.05-formok\\2025.02.05-formok\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|solutionrelative:2025.02.05-formok\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\2025.02.05-formok\\2025.02.05-formok\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|solutionrelative:2025.02.05-formok\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\2025.02.05-formok\\2025.02.05-formok\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|solutionrelative:2025.02.05-formok\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\2025.02.05-formok\\2025.02.05-formok\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|solutionrelative:2025.02.05-formok\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\2025.02.05-formok\\2025.02.05-formok\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36970300-A5F9-4B4F-89F9-8E8916594701}|2025.02.05-formok\\2025.02.05-formok.csproj|solutionrelative:2025.02.05-formok\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Register.cs",
+              "RelativeDocumentMoniker": "2025.02.05-formok\\Register.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Register.cs",
+              "RelativeToolTip": "2025.02.05-formok\\Register.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAewBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:57:42.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Main.cs",
+              "RelativeDocumentMoniker": "2025.02.05-formok\\Main.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Main.cs",
+              "RelativeToolTip": "2025.02.05-formok\\Main.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAEwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T10:25:09.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Adatbazis.cs",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Adatbazis.cs",
+              "RelativeDocumentMoniker": "2025.02.05-formok\\Adatbazis.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Adatbazis.cs",
+              "RelativeToolTip": "2025.02.05-formok\\Adatbazis.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowEcAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:19:03.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Login.cs",
+              "RelativeDocumentMoniker": "2025.02.05-formok\\Login.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Login.cs",
+              "RelativeToolTip": "2025.02.05-formok\\Login.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:15:47.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Register.cs",
+              "RelativeDocumentMoniker": "2025.02.05-formok\\Register.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Register.cs [Design]",
+              "RelativeToolTip": "2025.02.05-formok\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:01:20.854Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Login.cs",
+              "RelativeDocumentMoniker": "2025.02.05-formok\\Login.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Login.cs [Design]",
+              "RelativeToolTip": "2025.02.05-formok\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:01:08.981Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Main.cs",
+              "RelativeDocumentMoniker": "2025.02.05-formok\\Main.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\2025.02.05-formok\\2025.02.05-formok\\Main.cs [Design]",
+              "RelativeToolTip": "2025.02.05-formok\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:00:29.947Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
