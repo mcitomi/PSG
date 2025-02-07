@@ -1,0 +1,21 @@
+.prods > div {
+    border: solid black 3px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    background-color:burlywood;
+}
+
+#cart {
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}
+
+#cart > div {
+    border: dotted 3px black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
