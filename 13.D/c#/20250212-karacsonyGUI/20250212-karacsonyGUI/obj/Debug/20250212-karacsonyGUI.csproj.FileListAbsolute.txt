@@ -1,0 +1,10 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyGUI\20250212-karacsonyGUI\bin\Debug\20250212-karacsonyGUI.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyGUI\20250212-karacsonyGUI\bin\Debug\20250212-karacsonyGUI.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyGUI\20250212-karacsonyGUI\bin\Debug\20250212-karacsonyGUI.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyGUI\20250212-karacsonyGUI\obj\Debug\20250212-karacsonyGUI.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyGUI\20250212-karacsonyGUI\obj\Debug\_20250212_karacsonyGUI.Form1.resources
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyGUI\20250212-karacsonyGUI\obj\Debug\_20250212_karacsonyGUI.Properties.Resources.resources
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyGUI\20250212-karacsonyGUI\obj\Debug\20250212-karacsonyGUI.csproj.GenerateResource.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyGUI\20250212-karacsonyGUI\obj\Debug\20250212-karacsonyGUI.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyGUI\20250212-karacsonyGUI\obj\Debug\20250212-karacsonyGUI.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyGUI\20250212-karacsonyGUI\obj\Debug\20250212-karacsonyGUI.pdb

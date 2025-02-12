@@ -1,0 +1,7 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyCLI\20250212-karacsonyCLI\bin\Debug\20250212-karacsonyCLI.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyCLI\20250212-karacsonyCLI\bin\Debug\20250212-karacsonyCLI.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyCLI\20250212-karacsonyCLI\bin\Debug\20250212-karacsonyCLI.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyCLI\20250212-karacsonyCLI\obj\Debug\20250212-karacsonyCLI.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyCLI\20250212-karacsonyCLI\obj\Debug\20250212-karacsonyCLI.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyCLI\20250212-karacsonyCLI\obj\Debug\20250212-karacsonyCLI.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250212-karacsonyCLI\20250212-karacsonyCLI\obj\Debug\20250212-karacsonyCLI.pdb
