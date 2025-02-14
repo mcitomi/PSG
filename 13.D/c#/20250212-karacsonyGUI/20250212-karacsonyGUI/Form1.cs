@@ -52,8 +52,8 @@ namespace _20250212_karacsonyGUI
 
             textBoxElkeszitett.Text = textBoxEladott.Text = "0";
 
-            int selceted = Convert.ToInt32(comboBox.SelectedItem);
-            for (int i = 0; i < selceted; i++)
+            int selceted = Convert.ToInt32(comboBox.SelectedIndex);
+            for (int i = 0; i <= selceted; i++)
             {
                 comboBox.Items.RemoveAt(0);
             }

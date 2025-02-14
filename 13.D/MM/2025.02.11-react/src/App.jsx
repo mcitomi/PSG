@@ -31,16 +31,30 @@ export default () => {
     const [cart, setCart] = useState([]);
 
     function addToCart(i) {
-        let newCart = [...cart];
-        newCart.push(products[i]);
-        setCart(newCart);
+        let contains = false;
+        for (const product of cart) {
+            if(product.name === products[i].name) {
+                contains = true;
+            }
+        }
+        if(contains) {
+            // newCart.splice(newCart.indexOf(products[i]), 1);
+            let newCart = cart.filter(product => {
+                return product.name !== products[i].name;
+            });
+            setCart(newCart);
+        } else {
+            let newCart = [...cart];
+            newCart.push(products[i]);
+            setCart(newCart);
+        }
     }
 
     return <>
         <h1>Termékek</h1>
         {
-            products.map(product => {
-                return <ProductCard name={product.name} desc={product.desc} price={product.price} onCLick={() => addToCart()}/>
+            products.map((product, i) => {
+                return <ProductCard name={product.name} desc={product.desc} price={product.price} onCLick={() => addToCart(i)}/>
             })
         }
         <h1>Kosár</h1>

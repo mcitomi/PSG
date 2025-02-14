@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250212-karacsonyGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52556AEB-4EA6-4940-9F2D-62300983D176}|20250212-karacsonyGUI\\20250212-karacsonyGUI.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\20250212-karacsonygui\\20250212-karacsonygui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52556AEB-4EA6-4940-9F2D-62300983D176}|20250212-karacsonyGUI\\20250212-karacsonyGUI.csproj|solutionrelative:20250212-karacsonygui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52556AEB-4EA6-4940-9F2D-62300983D176}|20250212-karacsonyGUI\\20250212-karacsonyGUI.csproj|C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250212-karacsonyGUI\\20250212-karacsonygui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52556AEB-4EA6-4940-9F2D-62300983D176}|20250212-karacsonyGUI\\20250212-karacsonyGUI.csproj|solutionrelative:20250212-karacsonygui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52556AEB-4EA6-4940-9F2D-62300983D176}|20250212-karacsonyGUI\\20250212-karacsonyGUI.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\20250212-karacsonygui\\20250212-karacsonygui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{52556AEB-4EA6-4940-9F2D-62300983D176}|20250212-karacsonyGUI\\20250212-karacsonyGUI.csproj|solutionrelative:20250212-karacsonygui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{52556AEB-4EA6-4940-9F2D-62300983D176}|20250212-karacsonyGUI\\20250212-karacsonyGUI.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\20250212-karacsonygui\\20250212-karacsonygui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52556AEB-4EA6-4940-9F2D-62300983D176}|20250212-karacsonyGUI\\20250212-karacsonyGUI.csproj|solutionrelative:20250212-karacsonygui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250212-karacsonyGUI\\20250212-karacsonyGUI\\Form1.cs",
               "RelativeDocumentMoniker": "20250212-karacsonyGUI\\Form1.cs",
               "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250212-karacsonyGUI\\20250212-karacsonyGUI\\Form1.cs",
               "RelativeToolTip": "20250212-karacsonyGUI\\Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwB8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAIwD0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T11:00:27.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250212-karacsonyGUI\\20250212-karacsonyGUI\\Form1.cs",
               "RelativeDocumentMoniker": "20250212-karacsonyGUI\\Form1.cs",
