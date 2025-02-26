@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250226-feladaz0221\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4065E35-642A-4D8B-96DC-DBEFCB2473CE}|20250226-feladaz0221\\20250226-feladaz0221.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\20250226-feladaz0221\\20250226-feladaz0221\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4065E35-642A-4D8B-96DC-DBEFCB2473CE}|20250226-feladaz0221\\20250226-feladaz0221.csproj|solutionrelative:20250226-feladaz0221\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250226-feladaz0221\\20250226-feladaz0221\\Program.cs",
+              "RelativeDocumentMoniker": "20250226-feladaz0221\\Program.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250226-feladaz0221\\20250226-feladaz0221\\Program.cs",
+              "RelativeToolTip": "20250226-feladaz0221\\Program.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwHsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T08:55:55.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

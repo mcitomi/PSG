@@ -1,0 +1,7 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\20250226-feladaz0221\20250226-feladaz0221\bin\Debug\20250226-feladaz0221.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\20250226-feladaz0221\20250226-feladaz0221\bin\Debug\20250226-feladaz0221.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250226-feladaz0221\20250226-feladaz0221\bin\Debug\20250226-feladaz0221.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\20250226-feladaz0221\20250226-feladaz0221\obj\Debug\20250226-feladaz0221.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250226-feladaz0221\20250226-feladaz0221\obj\Debug\20250226-feladaz0221.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250226-feladaz0221\20250226-feladaz0221\obj\Debug\20250226-feladaz0221.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250226-feladaz0221\20250226-feladaz0221\obj\Debug\20250226-feladaz0221.pdb
