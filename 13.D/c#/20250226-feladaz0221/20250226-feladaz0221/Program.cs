@@ -101,7 +101,7 @@ namespace _20250226_feladaz0221
             StreamWriter guestWriter = new StreamWriter("../../guest.txt");
             StreamWriter adminWriter = new StreamWriter("../../admin.txt");
 
-            foreach(Fileok kep in list)
+            foreach(Fileok kep in kepekList)
             {
                 if(kep.modositasDatum != DateTime.MinValue)
                 {
