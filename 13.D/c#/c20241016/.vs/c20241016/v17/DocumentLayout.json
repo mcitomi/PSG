@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\c20241016\\",
+  "WorkspaceRootPath": "D:\\ISK\\PSG\\13.D\\c#\\c20241016\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13A34AC8-F488-40E2-8FF5-914B0ABB1B0A}|c20241016\\c20241016.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\c20241016\\c20241016\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13A34AC8-F488-40E2-8FF5-914B0ABB1B0A}|c20241016\\c20241016.csproj|d:\\isk\\psg\\13.d\\c#\\c20241016\\c20241016\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13A34AC8-F488-40E2-8FF5-914B0ABB1B0A}|c20241016\\c20241016.csproj|solutionrelative:c20241016\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\c20241016\\c20241016\\Program.cs",
+              "DocumentMoniker": "D:\\ISK\\PSG\\13.D\\c#\\c20241016\\c20241016\\Program.cs",
               "RelativeDocumentMoniker": "c20241016\\Program.cs",
-              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\c20241016\\c20241016\\Program.cs",
+              "ToolTip": "D:\\ISK\\PSG\\13.D\\c#\\c20241016\\c20241016\\Program.cs",
               "RelativeToolTip": "c20241016\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANAAAAB/AAAAAAAAAA==",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAkwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T08:14:56.414Z",
               "EditorCaption": ""
