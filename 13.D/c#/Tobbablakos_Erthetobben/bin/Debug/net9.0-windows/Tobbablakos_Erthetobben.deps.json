@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Tobbablakos_Erthetobben/1.0.0": {
+        "runtime": {
+          "Tobbablakos_Erthetobben.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tobbablakos_Erthetobben/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

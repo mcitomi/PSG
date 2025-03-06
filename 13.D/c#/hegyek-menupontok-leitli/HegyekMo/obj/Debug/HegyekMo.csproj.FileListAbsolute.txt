@@ -1,0 +1,11 @@
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\bin\Debug\HegyekMo.exe.config
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\bin\Debug\HegyekMo.exe
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\bin\Debug\HegyekMo.pdb
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\obj\Debug\HegyekMo.csproj.AssemblyReference.cache
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\obj\Debug\hegyek_menupontok_leitli.BorzsonyForm.resources
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\obj\Debug\hegyek_menupontok_leitli.Form1.resources
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\obj\Debug\HegyekMo.Properties.Resources.resources
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\obj\Debug\HegyekMo.csproj.GenerateResource.cache
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\obj\Debug\HegyekMo.csproj.CoreCompileInputs.cache
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\obj\Debug\HegyekMo.exe
+D:\ISK\PSG\13.D\c#\hegyek-menupontok-leitli\HegyekMo\obj\Debug\HegyekMo.pdb

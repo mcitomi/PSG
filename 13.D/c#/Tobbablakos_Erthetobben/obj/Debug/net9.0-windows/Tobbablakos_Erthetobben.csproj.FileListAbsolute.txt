@@ -1,0 +1,17 @@
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\bin\Debug\net9.0-windows\Tobbablakos_Erthetobben.exe
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\bin\Debug\net9.0-windows\Tobbablakos_Erthetobben.deps.json
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\bin\Debug\net9.0-windows\Tobbablakos_Erthetobben.runtimeconfig.json
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\bin\Debug\net9.0-windows\Tobbablakos_Erthetobben.dll
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\bin\Debug\net9.0-windows\Tobbablakos_Erthetobben.pdb
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\Tobbablakos_Erthetobben.Form1.resources
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\Tobbablakos_Erthetobben.Form2.resources
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\Tobbablakos_Erthetobben.csproj.GenerateResource.cache
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\Tobbablakos_Erthetobben.GeneratedMSBuildEditorConfig.editorconfig
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\Tobbablakos_Erthetobben.AssemblyInfoInputs.cache
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\Tobbablakos_Erthetobben.AssemblyInfo.cs
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\Tobbablakos_Erthetobben.csproj.CoreCompileInputs.cache
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\Tobbablakos_Erthetobben.dll
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\refint\Tobbablakos_Erthetobben.dll
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\Tobbablakos_Erthetobben.pdb
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\Tobbablakos_Erthetobben.genruntimeconfig.cache
+\\psgaddc\infotanar-store\homes\mizererobin161\202425\13D\Tobbablakos_Erthetobben\obj\Debug\net9.0-windows\ref\Tobbablakos_Erthetobben.dll
