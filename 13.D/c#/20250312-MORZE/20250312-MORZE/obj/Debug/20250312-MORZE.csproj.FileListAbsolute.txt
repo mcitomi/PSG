@@ -1,0 +1,7 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\20250312-MORZE\20250312-MORZE\bin\Debug\20250312-MORZE.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\20250312-MORZE\20250312-MORZE\bin\Debug\20250312-MORZE.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250312-MORZE\20250312-MORZE\bin\Debug\20250312-MORZE.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\20250312-MORZE\20250312-MORZE\obj\Debug\20250312-MORZE.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250312-MORZE\20250312-MORZE\obj\Debug\20250312-MORZE.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250312-MORZE\20250312-MORZE\obj\Debug\20250312-MORZE.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250312-MORZE\20250312-MORZE\obj\Debug\20250312-MORZE.pdb

@@ -1,0 +1,7 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-robin\BerdoTamas_Focistak\BerdoTamas_Focistak\bin\Debug\BerdoTamas_Focistak.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-robin\BerdoTamas_Focistak\BerdoTamas_Focistak\bin\Debug\BerdoTamas_Focistak.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-robin\BerdoTamas_Focistak\BerdoTamas_Focistak\bin\Debug\BerdoTamas_Focistak.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-robin\BerdoTamas_Focistak\BerdoTamas_Focistak\obj\Debug\BerdoTamas_Focistak.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-robin\BerdoTamas_Focistak\BerdoTamas_Focistak\obj\Debug\BerdoTamas_Focistak.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-robin\BerdoTamas_Focistak\BerdoTamas_Focistak\obj\Debug\BerdoTamas_Focistak.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-robin\BerdoTamas_Focistak\BerdoTamas_Focistak\obj\Debug\BerdoTamas_Focistak.pdb

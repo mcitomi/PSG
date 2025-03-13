@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250312-MORZE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9F9F4-FA12-48E8-B7D3-F2FD33721E12}|20250312-MORZE\\20250312-MORZE.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\20250312-morze\\20250312-morze\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9F9F4-FA12-48E8-B7D3-F2FD33721E12}|20250312-MORZE\\20250312-MORZE.csproj|solutionrelative:20250312-morze\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250312-MORZE\\20250312-MORZE\\Program.cs",
+              "RelativeDocumentMoniker": "20250312-MORZE\\Program.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250312-MORZE\\20250312-MORZE\\Program.cs",
+              "RelativeToolTip": "20250312-MORZE\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwCoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T08:54:39.983Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
