@@ -1,0 +1,7 @@
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\bin\Debug\20250313-focistak-dani-hf.exe.config
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\bin\Debug\20250313-focistak-dani-hf.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\bin\Debug\20250313-focistak-dani-hf.pdb
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.csproj.AssemblyReference.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.exe
+C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.pdb

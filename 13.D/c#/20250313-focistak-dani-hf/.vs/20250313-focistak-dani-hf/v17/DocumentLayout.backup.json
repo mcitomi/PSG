@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250313-focistak-dani-hf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E912EE36-FD82-4EF6-A4B1-ECA6654CCB49}|20250313-focistak-dani-hf\\20250313-focistak-dani-hf.csproj|c:\\users\\tomi\\documents\\psg\\13.d\\c#\\20250313-focistak-dani-hf\\20250313-focistak-dani-hf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E912EE36-FD82-4EF6-A4B1-ECA6654CCB49}|20250313-focistak-dani-hf\\20250313-focistak-dani-hf.csproj|solutionrelative:20250313-focistak-dani-hf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250313-focistak-dani-hf\\20250313-focistak-dani-hf\\Program.cs",
+              "RelativeDocumentMoniker": "20250313-focistak-dani-hf\\Program.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\PSG\\13.D\\c#\\20250313-focistak-dani-hf\\20250313-focistak-dani-hf\\Program.cs",
+              "RelativeToolTip": "20250313-focistak-dani-hf\\Program.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAAHsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:19:38.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
