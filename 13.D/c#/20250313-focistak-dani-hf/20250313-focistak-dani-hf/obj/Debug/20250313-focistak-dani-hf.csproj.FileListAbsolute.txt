@@ -5,3 +5,10 @@ C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-
 C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.csproj.CoreCompileInputs.cache
 C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.exe
 C:\Users\tomi\Documents\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.pdb
+D:\ISK\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\bin\Debug\20250313-focistak-dani-hf.exe.config
+D:\ISK\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\bin\Debug\20250313-focistak-dani-hf.exe
+D:\ISK\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\bin\Debug\20250313-focistak-dani-hf.pdb
+D:\ISK\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.csproj.AssemblyReference.cache
+D:\ISK\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.csproj.CoreCompileInputs.cache
+D:\ISK\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.exe
+D:\ISK\PSG\13.D\c#\20250313-focistak-dani-hf\20250313-focistak-dani-hf\obj\Debug\20250313-focistak-dani-hf.pdb
