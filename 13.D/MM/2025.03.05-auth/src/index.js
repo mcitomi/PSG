@@ -20,6 +20,7 @@ app.post("/register", async (req, res) => {
 
         // itt lenne az ellenőrzés ami szokott.
 
+
         const [existingUser] = await pool.query(`
             SELECT * FROM users WHERE users.username LIKE ?;
             `, [body.username]
