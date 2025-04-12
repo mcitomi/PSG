@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.9",
+    "bun-routes-cors": "^0.1.1",
     "jsonwebtoken": "^9.0.2"
   }
 }

@@ -8,24 +8,14 @@ import { sign, verify } from "jsonwebtoken";
 
 const JWT_SEC = "secret";
 
-function CORS(res: Response) {
-    res.headers.append('Access-Control-Allow-Origin', '*');
-    res.headers.append('Access-Control-Allow-Methods', '*');
-    res.headers.append('Access-Control-Allow-Headers', '*');
-    return res;
-}
+import CORS from "bun-routes-cors";
 
 createDb(db);
 
 Bun.serve({
     port: 8080,
     development: true,
-    async fetch(req) {
-        if (req.method === 'OPTIONS') {
-            return CORS(new Response('Departed'));
-        }
-    },
-    routes: {
+    routes : CORS({
         "/posts": {
             GET: async (req: Bun.BunRequest<"/posts">) => {
                 try {
@@ -43,7 +33,7 @@ Bun.serve({
                     const token = req.headers.get("authorization").split(' ')[1];
                     if(!token) {
                         throw new Error("Auth error, invalid token or signature");
-                        
+
                     }
                     const decoded = verify(token, JWT_SEC) as { _uid: number };
 
@@ -225,30 +215,30 @@ Bun.serve({
                         algorithm: "argon2id"
                     });
 
-                    const dbResults = db.run(`INSERT INTO users (username, display_name, password) VALUES (${Object.keys(body).map(x => { return "?" })})`, [body.username, body.display_name, hashPassword]);
+                    const dbResults = db.run(`INSERT INTO users (username, display_name, password) VALUES (?, ?, ?)`, [body.username, body.display_name, hashPassword]);
 
                     if (dbResults.changes !== 1) {
                         throw new Error("Error inserting row");
                     }
 
-                    return CORS(Response.json({
+                    return (Response.json({
                         "message": "User successfully registered!"
                     }, { status: 201 }));
 
                 } catch (error) {
                     if (error.message.includes("Invalid")) {
-                        return CORS(Response.json({
+                        return (Response.json({
                             "message": error.message
                         }, { status: 400 }));
                     }
-                    return CORS(Response.json({
+                    return (Response.json({
                         "message": error.message
                     }, { status: 500 }));
                 }
             }
         },
         "/login": {
-            POST: async (req: Bun.BunRequest<"/login">) => {
+            POST: async (req: Bun.BunRequest) => {
                 try {
                     const body = await req.json() as {
                         username: string;
@@ -302,7 +292,8 @@ Bun.serve({
                 }
             }
         }
-    }
+    })
 });
+
 
 console.log("started");
