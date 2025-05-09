@@ -8,14 +8,15 @@ import { sign, verify } from "jsonwebtoken";
 
 const JWT_SEC = "secret";
 
-import CORS from "bun-routes-cors";
+// import CORS from "bun-routes-cors";
+import CORS from "D:/Codes/2025/corsmod/index.ts";
 
 createDb(db);
 
 Bun.serve({
     port: 8080,
     development: true,
-    routes : CORS({
+    routes: CORS({
         "/posts": {
             GET: async (req: Bun.BunRequest<"/posts">) => {
                 try {
@@ -31,7 +32,7 @@ Bun.serve({
             POST: async (req: Bun.BunRequest<"/posts">) => {
                 try {
                     const token = req.headers.get("authorization").split(' ')[1];
-                    if(!token) {
+                    if (!token) {
                         throw new Error("Auth error, invalid token or signature");
 
                     }
@@ -207,7 +208,7 @@ Bun.serve({
                         throw new Error("Invalid password");
                     }
 
-                    if(body.password != body.passwordre) {
+                    if (body.password != body.passwordre) {
                         throw new Error("Invalid password: password do not match");
                     }
 
@@ -264,21 +265,21 @@ Bun.serve({
                         password: string;
                     };
 
-                    if(!userValues) {
+                    if (!userValues) {
                         throw new Error("Invalid username or password");
                     }
 
-                    if(!await Bun.password.verify(body.password, userValues.password)){
+                    if (!await Bun.password.verify(body.password, userValues.password)) {
                         throw new Error("Invalid username or password");
                     }
 
-                    const token = sign({ _uid : userValues.id}, JWT_SEC, {
+                    const token = sign({ _uid: userValues.id }, JWT_SEC, {
                         expiresIn: "2h"
                     });
 
                     return Response.json({
-                        "message" : "User successfully logged in",
-                        "token" : token
+                        "message": "User successfully logged in",
+                        "token": token
                     });
                 } catch (error) {
                     if (error.message.includes("Invalid")) {
@@ -291,7 +292,45 @@ Bun.serve({
                     }, { status: 500 });
                 }
             }
-        }
+        },
+        "/": Response.redirect("https://example.com"),
+        "/asd": () => {
+            return new Response("asd")
+            return 
+        },
+        "/asdsadas": {
+            GET: async (req) => {
+                return Response.json();
+            }
+        },
+        "/api/status": new Response("OK"),
+
+        // Dynamic routes
+        "/users/:id": (req: Bun.BunRequest<"/users/:id">) => {
+            return new Response(`Hello User ${req.params.id}!`);
+        },
+
+        // Per-HTTP method handlers
+        "/api/posts": {
+            GET: () => new Response("List posts"),
+            POST: async req => {
+                const body = await req.json();
+                return Response.json({ created: true });
+            }
+        },
+
+        // Wildcard route for all routes that start with "/api/" and aren't otherwise matched
+        "/api/*": Response.json({ message: "Not found" }, { status: 404 }),
+
+        // Redirect from /blog/hello to /blog/hello/world
+        "/blog/hello": Response.redirect("/blog/hello/world"),
+
+        // Serve a file by buffering it in memory
+        "/file": new Response(await Bun.file("./readme.md").bytes(), {
+            headers: {
+                "Content-Type": "image/x-icon",
+            },
+        })
     })
 });
 
