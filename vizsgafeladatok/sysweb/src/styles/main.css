@@ -1,0 +1,19 @@
+.floatR {
+    float: right;
+    margin: 20px 20px 0px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .floatR {
+    float: center;
+    }
+}
+
+.topBar {
+    height: 60px;
+    max-width: 1200px;
+}
+
+.brand {
+    max-height: 50px;
+}

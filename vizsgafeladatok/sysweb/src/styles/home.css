@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.mainBar {
+    background-image: url("https://www.sysweb.hu/img/fokep1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 12%;
+}
+
+h1 {
+    font-weight: 700 !important;
+    font-size: 38px;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.previewbtn {
+    margin-top: 30px;
+}
+
+.card {
+    transform: translateY(-150px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: translateY(-160px);
+}
+
+p {
+    text-align: center;
+}
+
+.informations {
+    background-image: url("https://www.sysweb.hu/img/sorkek3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 !important;
+}
+
+.informations-blue {
+    background-color: rgba(26, 118, 209, 0.8);
+}
+
+.item {
+    padding: 50px;
+}
