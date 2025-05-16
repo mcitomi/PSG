@@ -3,7 +3,7 @@ https://www.deepl.com/en/translator
 
 Alap:
 https://developer.mozilla.org/en-US/
-https://learn.microsoft.com/hu-hu/
+https://learn.microsoft.com/hu-hu/dotnet/csharp/
 
 Backend:
 https://www.npmjs.com/
