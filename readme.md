@@ -1,12 +1,20 @@
-https://www.youtube.com/watch?v=xiWtqVtd1Oo
+# LINK: [https://tinyurl.com/psgbtamas](https://www.youtube.com/watch?v=xiWtqVtd1Oo)
+## Gyakorlások próbavizsgára:
+https://www.youtube.com/playlist?list=PLOvIovltJNRANEIRTqgbbfpMeisA3rdvb
 
-### Prettier formatting:    
+## Ajánlott eszközök:
+### Prettier: formatting:    
 ```prettier .\src\index.js --write --tab-width 4```
 
-#### ESLint check:
+#### ESLint: check:
 ```npx eslint .\src\```
 
-## React 
+### Icon Theme
+https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+
++ a kódod mindig kommenteld,hogy melyik sor / kódrészlet pontosan mit csinál hogyan működik
+
+## React gyorstalpalo:
 - Install:
 ```npm i react react-dom react-scripts```
 
