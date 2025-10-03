@@ -1,4 +1,7 @@
 # LINK: [https://tinyurl.com/psgbtamas](https://www.youtube.com/watch?v=xiWtqVtd1Oo)
+
+CLASSROOM KOD: gimhr33d
+
 ## Gyakorlások próbavizsgára:
 https://www.youtube.com/playlist?list=PLOvIovltJNRANEIRTqgbbfpMeisA3rdvb
 
@@ -11,6 +14,10 @@ https://www.youtube.com/playlist?list=PLOvIovltJNRANEIRTqgbbfpMeisA3rdvb
 
 ### Icon Theme
 https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+
+### JS 
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next
+
 
 + a kódod mindig kommenteld,hogy melyik sor / kódrészlet pontosan mit csinál hogyan működik
 
