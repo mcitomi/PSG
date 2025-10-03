@@ -1,0 +1,85 @@
+paraméterek, adatbazis kezeles
+
+amiket józsi mondott:
+- hibakódok, csoportjai (1xx, 2xx, 3xx, 4xx, 5xx) https://developer.mozilla.org/en-US/
+
+- CORS??? tudják-e hogy mi az
+biztonsági szabvány, böngésző ne engedje hogy más oldal hozzáférjen az oldalunk adataihoz.
+pl localhost:3000!= localhost:3030, nem engedélyezné
+
+- függőségek (gondolom express, mysql2, bcrypt, jsonwebtoken, cors)
+destrukturáló vs module import
+import { createPool } from "mysql2/promise"; vs import myql from "mysql2/promise"; -> mysql.createPool
+
+- "kulcs érték párok vizsgálata if-ben", trycatch ismerete, hibakezelés: Object.keys(body).length !== n, !body.user_id || typeof(body.user_id) !== "number"
+
+- mysql pool létrehozást jetsem ki!!!!! -> akkor már sql injection, miért kell a (?,?,?) [var1, var2, var3] 
+- const [innerResult] joci nem tudta megfogalmazni -> affectedRows = n, mit jelent ez miért fontos?
+
+- get post eddig megy, delete, put, patch még nem illetve get sem lett használva náluk adatbázissal.
+
+
+
+PARAMETEREK:
+https://github.com/mcitomi/PSG/blob/main/13.D/MM/2024.10.11-videok-receptes-backend/src/index.js
+URL felépítés
+
+lekérdezési paraméter pl /autok?marka=opel&page=3	req.query.marka	req.query.page
+utvonal parameter /autok/:marka pl /autok/opel	req.params.marka
+
+
+
+ADATBAZIS:
+https://github.com/mcitomi/PSG/blob/main/13.D/MM/2024.10.25-adatbazis-node/src/index.js
+
+adatbázis driverek, mysql, mysql2, postgre, (mongodb)
+
+[results, fields] https://sidorares.github.io/node-mysql2/docs
+results == [ { id: 1, name: 'Alice' }, { id: 2, name: 'Bob' } ]
+
+fields[0].name == "id"
+fields[1].name == "name"
+
+// KÖTELEZŐ MEZŐK
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'test'
+
+pool vs connection? 
+
+const pool = mysql.createPool({
+  host: 'localhost',
+  user: 'root',
+  database: 'test',
+  waitForConnections: true,
+  connectionLimit: 10,
+  maxIdle: 10,
+  idleTimeout: 60000,
+  queueLimit: 0,
+  enableKeepAlive: true,
+  keepAliveInitialDelay: 0,
+});
+
+const conn = await pool.getConnection();
+await conn.query(/* ... */);
+pool.releaseConnection(conn);
+
+Ez arra jó, ha egy kérés kiszolgálásához több adatbázis lekérdezést is kellfuttatni, ekkor lefoglal egy connectiont a poolbol és a végén manuálisan el kell engedni.
+
+const [result,] = await pool.query("INSERT INTO teachers (name, age) VALUES (?, ?) returning *;", [body.name, body.age]);
+
+returning: az adott táblából visszaadhetunk adatokat akkor is ha az insert vagy update.
+ekkor nem kapunk vissza affectedRows értéket, hanem megtalálhatjuk a kért információban az újonan beszúrt sorunkat.
+
+
+HITELESITES (7. anyag??)
+const hash = bcrypt.hashSync(myPlaintextPassword, saltRounds);
+
+több is létezik, bcrypt, argon2 argon2i argon2id...
+decrypt/encrypt oldalak
+hash adatbázisban való tárolasa
+
+
+
+
