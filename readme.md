@@ -1,7 +1,5 @@
 # LINK: [https://tinyurl.com/psgbtamas](https://www.youtube.com/watch?v=xiWtqVtd1Oo)
 
-CLASSROOM KOD: gimhr33d
-
 ## Gyakorlások próbavizsgára:
 https://www.youtube.com/playlist?list=PLOvIovltJNRANEIRTqgbbfpMeisA3rdvb
 
