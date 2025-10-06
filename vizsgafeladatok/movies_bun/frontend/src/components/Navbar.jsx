@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Container, Navbar, Nav } from "react-bootstrap";
-export default ({ logged, setLogged }) => {
+export default ({ logged, setLogged } ) => {
     function handleLogout() {
         localStorage.removeItem("token");
         setLogged(false);
