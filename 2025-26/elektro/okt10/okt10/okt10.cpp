@@ -2,25 +2,20 @@
 
 int main()
 {
-	int a, b;
-
-	printf("Adj meg ket szamot: ");
-
-	scanf_s("%d %d", &a, &b);
-
-	printf("Osszeguk: %d", a + b);
-
-	if (a > b) {
-		printf("\n%d-bol %d egyenlo %d", a, b, a - b);
+	int szam = 10;
+	int szam2 = 20;
+	szam++;
+	szam = szam + 1;
+	if (szam < 11) {
+		printf("kisebb");
 	}
-	else if (b > a) {
-		printf("\n%d-bol %d egyenlo %d", b, a, b - a);
+	else if(szam > 11)
+	{
+		printf("nagyobb");
 	}
-	else {
-		printf("\nA ket szam egyenlo");
+	else
+	{
+		printf("egyenlo");
 	}
-
-	for (int i = 0; i < 10; i++) {
-		printf("\n%d ", i);
-	}
+	
 }
