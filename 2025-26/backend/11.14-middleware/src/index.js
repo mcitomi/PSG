@@ -95,7 +95,7 @@ app.post('/login', async (req, res) => {
 
         // JWT generálása
         const payload = { id: user.id, username: user.username, role: user.role };
-        const token = jwt.sign(payload);
+        const token = jwt.sign({id: user.id, role: user.role}, JWT_SECRET, {expiresIn: "2d"});
 
         res.json({
             message: 'Sikeres bejelentkezés!',
