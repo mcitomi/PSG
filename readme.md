@@ -3,6 +3,9 @@
 ## Mappa letöltéséhez:
 https://download-directory.github.io/
 
+## Mate anyagok:
+https://drive.google.com/drive/folders/1gn6Ost-dcRnYKF5HrYgssqKITdIUhcwj?usp=sharing
+
 ## Gyakorlások próbavizsgára:
 https://www.youtube.com/playlist?list=PLOvIovltJNRANEIRTqgbbfpMeisA3rdvb
 
@@ -65,4 +68,5 @@ return <>
 
 <Komponens id=1 name="Máté" />
 ```
+
 
