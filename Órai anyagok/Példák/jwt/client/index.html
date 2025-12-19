@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JWT példa</title>
+    </head>
+    <body>
+        <h1>Regisztráció</h1>
+        <form id="registrationForm">
+            <input type="text" id="regUsername">
+            <input type="password" id="regPassword">
+            <input type="submit" value="Küldés">
+        </form>
+
+        <h1>Bejelentkezés</h1>
+        <form id="loginForm">
+            <input type="text" id="loginUsername">
+            <input type="password" id="loginPassword">
+            <input type="submit" value="Küldés">
+        </form>
+
+        <button onClick="fetchProfile()">Felhasználónév lekérdezése</button>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

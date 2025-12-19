@@ -1,0 +1,20 @@
+[
+    {
+        "név": "Balogh Péter",
+        "autó": "2007 metál barna Ford Mondeo",
+        "állapot": "Szép, kicsit karcos (parkolni még meg kell tanulnia)",
+        "ár": 1800000
+    },
+    {
+        "név": "meow",
+        "autó": "Cat-mobil",
+        "állapot": "Kiváló",
+        "ár": 99999999
+    },
+    {
+        "név": "meow-2",
+        "autó": "Cat-mobil-2.0",
+        "állapot": "Kiváló+",
+        "ár": 999998643868
+    }
+]

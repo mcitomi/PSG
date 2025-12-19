@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feladat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a onclick="showSection('home')">Kezdőlap</a></li>
+            <li><a onclick="showSection('register')">Autó Regisztráció</a></li>
+            <li><a onclick="showSection('tasks')">Autók</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h1>Üdvözöl az oldalam!</h1>
+            <p>Itt regisztrálhatod majd az autóidat, autókat hozhatsz létre, szerekszthetsz és törölhetsz!</p>
+        </section>
+        <br>
+        <section id="register">
+            <h2>Autó Regisztráció</h2>
+            <form id="registerForm">
+                <label>Márka: <input type="text" id="marka"></label><br><br>
+                <label>Motor: <input type="text" id="motor"></label><br><br>
+                <label>Lóerő: <input type="text" id="loero"></label><br><br>
+                <label>Üzemanyag: <input type="text" id="uzemanyag"></label><br><br>
+                <button type="submit">Autó regisztrálása</button>
+            </form>
+            <p id="registerMessage"></p>
+        
+            <h3>Regisztrált autók</h3>
+            <div id="carList"></div>
+        </section>
+        <br>
+        <section id="tasks" class="hidden">
+            <h2>Autó szerkesztő és törlő</h2>
+            <input type="text" id="taskInput" placeholder="Új Autó hozzáadása">
+            <button onclick="addTask()">Hozzáadás</button>
+            <div id="taskList"></div>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch() POST</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Teendő feltöltése</h1>
+
+    <!-- 
+        Egy űrlapon keresztül bekérjük az adatokat, amelyeket fel szeretnénk tölteni 
+        a szerverre.
+    -->
+    <form id="todoForm">
+        <!-- 
+            label, for, name: mind azért kell, hogy hátrányos helyzetűek jobban
+            elérhessék oldalunkat.
+        -->
+        <label for="title">Cím:</label>
+        <input type="text" id="title" name="title" placeholder="Írjon be egy címet." required>
+
+        <label for="description">Leírás:</label>
+        <textarea placeholder="Írjon egy leírást." id="description" name="description" required></textarea>
+
+        <button type="submit">Küldés</button>
+    </form>
+
+    <!-- 
+        Szintén ugyanazért kell, mint a get-request projektben.
+    -->
+    <div id="result">
+
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

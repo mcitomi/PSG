@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fecske</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <!-- 
+        Amikor a gombra kattint a felhasználó, 
+        lekérdezi a szerverről a posztokat, majd
+        megjeleníti azt a lentebbi formátumban.
+    -->
+    <button class="fetch" onclick="fetchPosts()">Posztok</button>
+    <!-- 
+        Csinálunk egy div-et, amibe majd feltöltjük
+        az adatokat, amiket kapunk a szervertől válaszként.
+        Ennek kell egy id, hogy JS-ben meg tudjuk nevezni.
+    -->
+    <div id="target">
+        
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

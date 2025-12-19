@@ -1,0 +1,17 @@
+{
+  "name": "2024.11.05-bead",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3"
+  }
+}

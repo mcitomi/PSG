@@ -1,0 +1,26 @@
+let person = {
+	name: "mate",
+	age: 21
+};
+
+person.name, helyette: name
+person.age, helyette: age
+
+let { name, age } = {
+	name: "mate",
+	age: 21
+};
+ezután a name változó értéke "mate", az age
+változóé pedig 21
+
+<MyButton num="2" name="..." />
+
+{
+	num: "2",
+	name: "..."
+}
+
+function Komponens({ num, name, stb... }) {
+	
+}
+<Komponens num=... name=... />
