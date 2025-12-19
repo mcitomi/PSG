@@ -1,5 +1,8 @@
 # LINK: [https://tinyurl.com/psgbtamas](https://www.youtube.com/watch?v=xiWtqVtd1Oo)
 
+## Mappa letöltéséhez:
+https://download-directory.github.io/
+
 ## Gyakorlások próbavizsgára:
 https://www.youtube.com/playlist?list=PLOvIovltJNRANEIRTqgbbfpMeisA3rdvb
 
