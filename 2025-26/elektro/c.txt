@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main()
+{
+    char name[50];
+    
+    printf("Add meg a neved: ");
+    scanf("%s", &name);
+    
+    printf("\n\nSzia %s", name);
+    
+    int tomb_hossza;
+    
+    printf("\n\nAdja meg a tömb hosszát: ");
+    scanf("%d", &tomb_hossza);
+    
+    printf("\n\nA tomb hossza: %d\n\n", tomb_hossza);
+    
+    int tomb[tomb_hossza]; // A tömb olyan hosszú lesz, amilyen számot beolvastunk
+
+    
+    for(int i = 0; i < tomb_hossza; i++) {
+        
+        printf("Adja meg a %d. számot: ", i + 1);
+        
+        scanf("%d", &tomb[i]);
+    }
+    
+    int sum = 0;
+    float atlag = 0;
+    
+    for(int i = 0; i < tomb_hossza; i++) {
+        sum += tomb[i];
+    }
+    
+    printf("Összeg: %d", sum);
+    
+    atlag = sum / tomb_hossza;
+    
+    printf("%f", atlag);
+
+    return 0;
+}
